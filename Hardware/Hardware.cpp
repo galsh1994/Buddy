@@ -31,11 +31,7 @@ arduino - timer timer
 void setup()
 {
   WiFi.begin(wifi_name, wifi_pass)
-  set wifi -
 
-      ssid = "123"
-
-      pass = "123"
 
   try to connect for 5 seconds yell if no good // WiFi.begin(ssid, password);  
 
