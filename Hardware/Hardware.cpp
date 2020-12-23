@@ -117,6 +117,7 @@ String processor(const String& var){
 
 void setup()
 {
+
   pinMode(1, INPUT);
   Serial.begin(115200);
   Serial.println();
@@ -152,6 +153,18 @@ void setup()
 
 
 set GPIO1,2,3,4 as INPUT // pinMode(16,INPUT)
+
+  WiFi.begin(wifi_name, wifi_pass)
+
+
+  try to connect for 5 seconds yell if no good // WiFi.begin(ssid, password);  
+
+ set bandwidth through usb 
+
+ port to computer // Serial Begin in baudrate [Serial.begin(115200)]
+
+ set GPIO1,2,3,4 as INPUT // pinMode(16,INPUT)
+
  set timer every 20 sec do testSoil // timer.every(60000,testSoil) ////// timer.setInterval(60000,testSoil)
  timer.every(60000,testSoil)
  set timer every 60 sec do measureTemp
